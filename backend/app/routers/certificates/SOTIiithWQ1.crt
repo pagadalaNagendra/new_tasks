@@ -1,0 +1,87 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            be:87:08:fc:bc:de:4b:c8:20:42:6e:c7:85:42:dc:c8
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=CDOT-M2M-CA
+        Validity
+            Not Before: Aug 28 11:05:00 2024 GMT
+            Not After : Aug 28 11:05:00 2034 GMT
+        Subject: CN=SOTIiithWQ1
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:de:46:4b:28:f7:49:0e:25:67:7e:c9:76:1d:e4:
+                    2d:52:f9:6d:8e:dc:99:3b:ef:78:1e:b7:aa:06:95:
+                    55:39:38:0e:e1:20:2c:5b:83:82:a3:2a:14:60:70:
+                    2b:b1:0f:6e:b2:f3:37:db:f2:00:6d:29:81:60:b5:
+                    6d:b9:18:f3:41:a8:44:bf:ec:02:f9:2f:e0:af:d9:
+                    35:79:dd:a2:60:bc:71:55:bc:63:bc:a7:94:97:15:
+                    29:6d:9b:28:d2:cf:24:59:0e:1c:14:cf:dc:79:3a:
+                    37:e0:de:5e:3c:19:1d:8f:a9:49:a5:7b:b4:fa:d7:
+                    62:df:9c:97:02:a8:24:00:45:85:0e:29:cc:1b:f1:
+                    47:5f:5b:8e:2e:da:e6:ed:78:2d:f5:4f:ff:fa:62:
+                    25:82:70:b4:be:40:e3:34:45:18:96:66:73:6d:07:
+                    ef:05:53:a8:90:8f:44:07:91:e2:21:50:15:ca:21:
+                    c4:d9:df:cf:7b:eb:d4:6c:a9:a6:9d:01:0b:75:b8:
+                    ca:bf:7e:f1:4b:f8:d9:0c:b2:70:96:98:36:51:b6:
+                    71:b7:b8:78:f6:69:94:7a:3e:d9:07:e1:81:70:84:
+                    6d:3c:78:c9:a0:5f:fc:1f:fe:b2:a0:83:ee:de:94:
+                    00:19:3d:5e:ef:b1:e1:de:40:11:63:5b:f6:0c:f0:
+                    2c:5d
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                14:0A:36:0B:86:9B:2F:9F:CA:5B:85:1E:3D:C7:25:36:B4:39:86:73
+            X509v3 Authority Key Identifier: 
+                keyid:F8:F1:B5:92:D4:5B:EF:47:EB:44:F2:0B:56:1A:89:91:63:49:6F:E9
+                DirName:/CN=CDOT-M2M-CA
+                serial:D0:03:54:86:D6:B8:D1:89
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+            X509v3 Subject Alternative Name: 
+                URI:https://ccsp.m2m.cdot.in/SOTIiithWQ1
+    Signature Algorithm: sha256WithRSAEncryption
+         19:4d:9c:07:d2:55:71:02:a7:5f:2d:2b:01:70:23:b9:60:51:
+         87:64:e6:f7:26:5b:7d:10:08:7b:c3:18:c7:72:33:68:39:8a:
+         ff:9d:9d:90:54:6a:c2:d0:ea:46:cf:89:9c:d1:55:6f:0b:e3:
+         91:5d:c5:e4:71:7f:f6:c6:cc:f1:9c:ab:e2:60:d6:6d:75:c5:
+         00:20:6c:c7:d5:de:cc:d3:12:40:5c:6f:0a:37:fd:67:a8:e8:
+         5c:d9:0b:19:96:39:ee:60:ae:af:38:8c:00:b5:2d:d5:a0:f5:
+         5e:fd:2d:53:51:15:8e:d0:da:37:a1:a1:72:5a:7b:6d:1b:2e:
+         94:b3:44:d1:07:3f:03:1b:b3:6c:e9:bc:37:a3:95:dd:f9:ca:
+         98:ab:f4:75:86:c1:46:ce:43:ce:17:96:a4:4a:ea:c1:99:47:
+         35:f1:67:5c:5a:92:00:2e:a3:22:2d:0f:8e:72:f6:34:c7:e5:
+         49:17:23:12:08:2f:2c:9c:c4:b8:c5:a7:c9:3f:2a:c8:0b:ff:
+         17:4a:0e:cb:3b:ba:77:14:21:8e:31:cd:da:b4:bf:71:df:37:
+         a5:89:dc:fa:70:7e:46:27:b3:7b:02:dc:01:05:99:9f:9f:16:
+         80:61:86:63:eb:ec:a5:fa:3f:cb:20:8f:6b:b0:77:69:4c:d0:
+         0d:30:61:c6
+-----BEGIN CERTIFICATE-----
+MIIDgDCCAmigAwIBAgIRAL6HCPy83kvIIEJux4VC3MgwDQYJKoZIhvcNAQELBQAw
+FjEUMBIGA1UEAwwLQ0RPVC1NMk0tQ0EwHhcNMjQwODI4MTEwNTAwWhcNMzQwODI4
+MTEwNTAwWjAWMRQwEgYDVQQDDAtTT1RJaWl0aFdRMTCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAN5GSyj3SQ4lZ37Jdh3kLVL5bY7cmTvveB63qgaVVTk4
+DuEgLFuDgqMqFGBwK7EPbrLzN9vyAG0pgWC1bbkY80GoRL/sAvkv4K/ZNXndomC8
+cVW8Y7ynlJcVKW2bKNLPJFkOHBTP3Hk6N+DeXjwZHY+pSaV7tPrXYt+clwKoJABF
+hQ4pzBvxR19bji7a5u14LfVP//piJYJwtL5A4zRFGJZmc20H7wVTqJCPRAeR4iFQ
+FcohxNnfz3vr1Gyppp0BC3W4yr9+8Uv42QyycJaYNlG2cbe4ePZplHo+2QfhgXCE
+bTx4yaBf/B/+sqCD7t6UABk9Xu+x4d5AEWNb9gzwLF0CAwEAAaOByDCBxTAJBgNV
+HRMEAjAAMB0GA1UdDgQWBBQUCjYLhpsvn8pbhR49xyU2tDmGczBGBgNVHSMEPzA9
+gBT48bWS1FvvR+tE8gtWGomRY0lv6aEapBgwFjEUMBIGA1UEAwwLQ0RPVC1NMk0t
+Q0GCCQDQA1SG1rjRiTATBgNVHSUEDDAKBggrBgEFBQcDAjALBgNVHQ8EBAMCB4Aw
+LwYDVR0RBCgwJoYkaHR0cHM6Ly9jY3NwLm0ybS5jZG90LmluL1NPVElpaXRoV1Ex
+MA0GCSqGSIb3DQEBCwUAA4IBAQAZTZwH0lVxAqdfLSsBcCO5YFGHZOb3Jlt9EAh7
+wxjHcjNoOYr/nZ2QVGrC0OpGz4mc0VVvC+ORXcXkcX/2xszxnKviYNZtdcUAIGzH
+1d7M0xJAXG8KN/1nqOhc2QsZljnuYK6vOIwAtS3VoPVe/S1TURWO0No3oaFyWntt
+Gy6Us0TRBz8DG7Ns6bw3o5Xd+cqYq/R1hsFGzkPOF5akSurBmUc18WdcWpIALqMi
+LQ+OcvY0x+VJFyMSCC8snMS4xafJPyrIC/8XSg7LO7p3FCGOMc3atL9x3zelidz6
+cH5GJ7N7AtwBBZmfnxaAYYZj6+yl+j/LII9rsHdpTNANMGHG
+-----END CERTIFICATE-----

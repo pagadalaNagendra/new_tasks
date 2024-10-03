@@ -1,0 +1,209 @@
+.homepage {
+  display: flex; /* Use flexbox for layout */
+}
+
+.left-sidebar {
+  width: 9%;
+  padding: 15px;
+  background-color: #FFFFFF;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.contentnm {
+  margin-left: 12%; 
+  margin-right: 15%; 
+  width: calc(100% - 30%); 
+  height: calc(100vh - 82px);
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto; 
+  scrollbar-width: thin; /* Use a thinner scrollbar */
+}
+
+.content::-webkit-scrollbar {
+  width: 8px; /* Width for webkit browsers */
+}
+
+.content::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Color for the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Space between cards */
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s; /* Animation effect */
+}
+
+.card:hover {
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.right-sidebar {
+  width: 13%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.range-selection {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust spacing between elements */
+}
+
+.range-selection input[type="number"] {
+  width: 60px;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.range-selection button {
+  padding: 8px 12px; /* Adjust padding of the button */
+}
+
+.rangenodebtn,
+.startstopbtn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.startstopbtn {
+  background-color: #28a745;
+}
+
+.startstopbtn:hover,
+.rangenodebtn:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+.parameter-section {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  overflow-x: auto; /* Allow horizontal scrolling */
+  white-space: nowrap; /* Prevent wrapping */
+  gap: 15px; /* Increased spacing between parameter cards */
+  padding: 15px 10px; /* Add padding for better spacing */
+  border: 1px solid #ddd; /* Subtle border around the section */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  background-color: #f4f8fb; /* Light background color for contrast */
+  max-height: 200px; /* Set a max height for the parameters section */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+.parameter-section::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in WebKit browsers (Chrome, Safari) */
+}
+
+.parameter-title {
+  margin-bottom: 10px; /* Space between title and parameter cards */
+  font-size: 18px; /* Adjust title font size */
+  font-weight: bold; /* Make the title bold */
+  color: #333; /* Adjust title color */
+}
+
+.parameter-cardsds {
+  display: flex; /* Keep the cards in a row */
+  gap: 15px; /* Space between cards */
+  
+  
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  
+}
+
+.table-container {
+  max-height: 300px; /* Set a height that fits your layout */
+  overflow-y: auto;  /* Enable vertical scrolling */
+  border: 1px solid #ccc; /* Optional: add a border around the container */
+  margin-top: -10px; /* Optional: add some margin */
+  width: 300px;
+}
+
+
+
+.data-table th,
+.data-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.data-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.data-table tr:hover {
+  background-color: #eaeaea;
+}
+
+.data-table td {
+  vertical-align: top;
+}
+
+
+
+.status-indicator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.status-start {
+  background-color: green;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.7); /* Green shadow */
+}
+
+.status-stop {
+  background-color: red;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.7); /* Red shadow */
+}
+
+
+/* Styles specifically for the node selection dropdown */
+.node-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #007bff; /* Change border color */
+  border-radius: 4px;
+  background-color: #f9f9f9; /* Light background */
+  font-size: 1rem; /* Font size */
+  transition: border-color 0.3s ease; /* Transition for border color */
+}
+
+.node-select:focus {
+  border-color: #0056b3; /* Darker border on focus */
+  outline: none; /* Remove default outline */
+}
