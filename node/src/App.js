@@ -8,7 +8,7 @@ import Node from './components/node';
 
 import './styles.css';
 import Platform from './components/platform';
-
+import Predefinedconfigurations from './components/Predefinedconfigurations';
 function App() {
   return (
     <Router>
@@ -20,6 +20,7 @@ function App() {
           <Route path="/Node-Simultor/parameter" element={<Parameter />} />
           <Route path="/Node-Simultor/node" element={<Node />} />
           <Route path="/Node-Simultor/platform" element={<Platform />} />
+          <Route path="/Node-Simultor/Predefinedconfigurations" element={<Predefinedconfigurations/>} />
           {/* Redirect any unknown paths to HomePage */}
           <Route path="*" element={<Navigate to="/Node-Simultor" />} />
         </Routes>
